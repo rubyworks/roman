@@ -7,10 +7,10 @@ DESCRIPTION
 The Roman library provides a full-fledged Numeric subclass
 for working in Roman Numerals.
 
-This is one of those libraries that seemed like a Good Thing(TM),
-but turn out to be overkill. [Ruby Facets](http://rubyworks.github.com/facets)
-defines Roman numeral extensions for `Integer` and `String` which do 
-everything that would generally be needed.
+NOTE: In most cases this library is probably overkil. Instead, 
+[Ruby Facets](http://rubyworks.github.com/facets) defines
+Roman numeral extensions for the `Integer` and `String` classes
+which are likely to do everything that one would generally need.
 
 
 HOW TO USE
