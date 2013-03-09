@@ -1,20 +1,33 @@
-Roman Numerals
-==============
+# Roman Numerals
 
-DESCRIPTION
------------
+[Website](http://rubyworks.github.com/roman) /
+[Documentation](http://rubydoc.info/gems/roman/frames) /
+[Report Issue](http://github.com/rubyworks/roman/issues) /
+[Source Code](http://github.com/rubyworks/roman) &nbsp; &nbsp;
+[![Flattr Me](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/324911/Rubyworks-Ruby-Development-Fund)
+
+## STATUS
+
+[![Gem Version](https://badge.fury.io/rb/roman.png)](http://badge.fury.io/rb/roman)
+[![Build Status](https://travis-ci.org/rubyworks/roman.png)](https://travis-ci.org/rubyworks/roman)
+
+
+## ABOUT
 
 The Roman library provides a full-fledged Numeric subclass
 for working in Roman Numerals.
 
-NOTE: In most cases this library is probably overkil. Instead, 
-[Ruby Facets](http://rubyworks.github.com/facets) defines
-Roman numeral extensions for the `Integer` and `String` classes
-which are likely to do everything that one would generally need.
+In most cases this library is probably overkill. Instead, 
+[Ruby Facets](http://rubyworks.github.com/facets) provides Roman numeral
+core extension methods for the `Integer` and `String` classes which are
+likely to do everything that one really needs. However, the RomanNumeral
+class has one advantage. It can be maniputated like any other Numeric
+object without having to switch back and forth between representations.
+Moreover, and probably most importantly, it makes an excellect example of
+how to create a Numeric subclass in Ruby.
 
 
-HOW TO USE
-----------
+## HOW TO USE
 
 We can create Roman numerals via the usual instantiation.
 
@@ -43,24 +56,18 @@ call #to_s.
      r.to_s                #=> "IV"
 
 
-FAQ
----
+## HOW TO INSTALL
 
-<b>Q. What didn't you just extend Integer to return the Roman
-numeral as a String?</b>
+Using RubyGems:
 
-A. That works, and probably more often than not would suffice.
-RomanNumeral has one advantage however. It can be maniputated
-like any other Numeric object without having to switch back and
-forth between representations.
+    gem install roman
 
 
-COPYRIGHT
----------
+## COPYRIGHT & LICENSE
 
-Copyright (c) 2010 Thomas Sawyer
+Copyright (c) 2010 Rubyworks
 
-Roman is destributed under the terms of the BSD-2-Clause license.
+Roman is destributed under the terms of the 
+[BSD-2-Clause](http://spdx.org/license/BSD-2-Clause) license.
 
 Please see LICENSE.txt file for details.
-

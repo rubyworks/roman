@@ -43,8 +43,9 @@ class RomanNumeral < Numeric
   #
   def self.to_integer(roman)
     #return nil unless roman_string.is_roman_numeral?
-    last = roman[-1,1]
+    last = roman[-1,1].upcase
     roman.reverse.split('').inject(0) do |result, c|
+      c = c.upcase
       if ROMAN_VALUES[c] < ROMAN_VALUES[last]
         result -= ROMAN_VALUES[c]
       else

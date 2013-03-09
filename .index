@@ -1,0 +1,72 @@
+---
+revision: 2013
+type: ruby
+sources:
+- var
+authors:
+- name: Trans
+  email: transfire@gmail.com
+organizations:
+- name: Rubyworks
+requirements:
+- groups:
+  - build
+  development: true
+  name: detroit
+- groups:
+  - build
+  development: true
+  name: ergo
+- groups:
+  - test
+  development: true
+  name: rubytest-cli
+- groups:
+  - test
+  development: true
+  name: lemon
+- groups:
+  - test
+  development: true
+  name: ae
+conflicts: []
+alternatives: []
+resources:
+- type: home
+  uri: http://rubyworks.github.com/roman
+  label: Homepage
+- type: code
+  uri: http://github.com/rubyworks/roman
+  label: Source Code
+- type: docs
+  uri: http://rubydoc.info/gems/roman
+  label: Documentation
+- type: wiki
+  uri: http://wiki.github.com/rubyworks/roman
+  label: User Guide
+- type: bugs
+  uri: http://github.com/rubyworks/roman/issues
+  label: Issue Tracker
+- type: mail
+  uri: http://groups.google.com/group/rubyworks-mailinglist
+  label: Mailing List
+repositories:
+- name: upstream
+  scm: git
+  uri: git://github.com/rubyworks/roman.git
+categories: []
+copyrights:
+- holder: Rubyworks
+  year: '2010'
+  license: BSD-2-Clause
+customs: []
+paths:
+  lib:
+  - lib
+created: '2010-03-02'
+summary: Real Roman Numerals
+title: Roman
+version: 0.1.0
+name: roman
+description: RomanNumeral class for working with roman numerals in a native form.
+date: '2013-03-09'

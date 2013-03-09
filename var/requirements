@@ -1,0 +1,7 @@
+---
+- detroit (build)
+- ergo    (build)
+- rubytest-cli (test)
+- lemon        (test)
+- ae           (test)
+
