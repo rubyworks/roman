@@ -66,7 +66,7 @@ paths:
 created: '2010-03-02'
 summary: Real Roman Numerals
 title: Roman
-version: 0.1.0
+version: 0.2.0
 name: roman
 description: RomanNumeral class for working with roman numerals in a native form.
 date: '2013-03-09'
