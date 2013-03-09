@@ -65,7 +65,7 @@ Using RubyGems:
 
 ## COPYRIGHT & LICENSE
 
-Copyright (c) 2010 Rubyworks
+Copyright (c) 2007 Rubyworks
 
 Roman is destributed under the terms of the 
 [BSD-2-Clause](http://spdx.org/license/BSD-2-Clause) license.
