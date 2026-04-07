@@ -33,7 +33,7 @@ class RomanNumeral < Numeric
   #
   def self.from_integer(int)
     #return nil if integer > MAX
-    return "-#{(-int).roman}" if int < 0
+    return "-#{(-int).to_roman}" if int < 0
     return "" if int == 0
     ROMAN_VALUES_ASSOC.each do |(i, v)|
       return(i + from_integer(int-v)) if v <= int 
