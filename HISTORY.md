@@ -1,6 +1,14 @@
 # RELEASE HISTORY
 
 
+## Unreleased (0.3.1)
+
+Changes:
+
+* Fix negative numbers, which raised NoMethodError when converted to a
+  string: `(-4).to_roman.to_s` is now `-IV`. (Bartosz Dziewoński, #1)
+
+
 ## 0.3.0 / 2026-04-02
 
 Maintenance release. Modernized project tooling.
