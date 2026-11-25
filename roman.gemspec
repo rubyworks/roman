@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'roman'
-  s.version     = '0.3.0'
+  s.version     = '0.3.1'
   s.summary     = 'Real Roman Numerals'
   s.description = 'RomanNumeral class for working with roman numerals in a native form.'
 

@@ -55,5 +55,17 @@ TestCase RomanNumeral do
     end
   end
 
+  Method :to_s do
+    test "negative numbers" do
+      (-1).to_roman.to_s.assert == '-I'
+      (-4).to_roman.to_s.assert == '-IV'
+      (-1994).to_roman.to_s.assert == '-MCMXCIV'
+    end
+
+    test "a result below zero" do
+      (4.to_roman - 10).to_s.assert == '-VI'
+    end
+  end
+
 end
 
