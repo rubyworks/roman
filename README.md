@@ -1,15 +1,10 @@
 # Roman Numerals
 
-[Website](http://rubyworks.github.com/roman) /
-[Documentation](http://rubydoc.info/gems/roman/frames) /
-[Report Issue](http://github.com/rubyworks/roman/issues) /
-[Source Code](http://github.com/rubyworks/roman) &nbsp; &nbsp;
-[![Flattr Me](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/324911/Rubyworks-Ruby-Development-Fund)
+[Source Code](https://github.com/rubyworks/roman) |
+[Report Issue](https://github.com/rubyworks/roman/issues)
 
-## STATUS
-
-[![Gem Version](https://badge.fury.io/rb/roman.png)](http://badge.fury.io/rb/roman)
-[![Build Status](https://travis-ci.org/rubyworks/roman.png)](https://travis-ci.org/rubyworks/roman)
+[![Gem Version](https://img.shields.io/gem/v/roman.svg?style=flat)](https://rubygems.org/gems/roman)
+[![Build Status](https://github.com/rubyworks/roman/actions/workflows/test.yml/badge.svg)](https://github.com/rubyworks/roman/actions/workflows/test.yml)
 
 
 ## ABOUT
@@ -18,7 +13,7 @@ The Roman library provides a full-fledged Numeric subclass
 for working in Roman Numerals.
 
 In most cases this library is probably overkill. Instead, 
-[Ruby Facets](http://rubyworks.github.com/facets) provides Roman numeral
+[Ruby Facets](https://github.com/rubyworks/facets) provides Roman numeral
 core extension methods for the `Integer` and `String` classes which are
 likely to do everything that one really needs. However, the RomanNumeral
 class has one advantage. It can be maniputated like any other Numeric
